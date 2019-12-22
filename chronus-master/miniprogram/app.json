@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "main/index/index",
+    "pages/home/index",
+    "pages/detail/index",
+    "pages/timer/index",
+    "pages/summary/index",
+    "pages/thing-index/thing-index",
+    "pages/thing-detail/thing-detail",
+    "main/main/main"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "超能NONO",
+    "navigationBarTextStyle": "black"
+  },
+  
+  "sitemapLocation": "sitemap.json"
+}

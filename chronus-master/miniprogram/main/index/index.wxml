@@ -1,0 +1,21 @@
+<block wx:if="{{scale == 0}}">
+  <view class="konupka" bindtap='menu'>NONO</view>
+</block>
+<block wx:if="{{scale == 3}}">
+  <view class="konupka" bindtap='menu_close'>NONO</view>
+</block>
+
+<view class='menu' style='transform: scale({{scale}});'>
+  <view class='btn user'bindtap="binduser">
+    <image src="../../images/img/user.jpg" />
+  </view>
+  <view class='btn find'bindtap="bindfind">
+    <image src="../../images/img/find.jpg" />
+  </view>
+  <view class='btn home'bindtap="bindhome">
+    <image src="../../images/img/home.jpg" />
+  </view>
+  <view class='btn search'bindtap="bindsearch">
+    <image src="../../images/img/search.jpg" />
+  </view>
+</view>
